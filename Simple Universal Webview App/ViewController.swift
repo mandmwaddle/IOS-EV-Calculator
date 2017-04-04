@@ -25,10 +25,10 @@ class ViewController: UIViewController {
         let frameRect: CGRect = CGRect(x: 0, y: 0, width: screenSize.width, height: screenSize.height)
 
         // Create url request from local index.html file located in web_content
-        let url: NSURL = NSBundle.mainBundle().URLForResource("web_content/index", withExtension: "html")!
+        //let url: NSURL = NSBundle.mainBundle().URLForResource("web_content/index", withExtension: "html")!
         
         // Create a url request that points to a remote server (uncomment this line to use a remote url)
-        // let url: NSURL = NSURL(string: "http://example.com")!;
+         let url: NSURL = NSURL(string: "https://studio.code.org/projects/applab/1CoxmewyFSZVz_WDB4hp0g")!;
 
         let requestObj: NSURLRequest = NSURLRequest(URL: url);
         
